@@ -19,8 +19,7 @@ const App = () => {
       <Quality />
       <Logistic />
       <Contact />
-      <Footer />
-
+      <Footer /> 
       {/* <Swiper/> */}
       {/* <Services /> */}
       {/* <Form /> */}

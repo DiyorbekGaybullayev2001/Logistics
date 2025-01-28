@@ -63,16 +63,16 @@ export function Navbar() {
                             
                             <ul className='flex gap-2 flex-col items-center justify-center text-center'>
                                 <li className='hover:bg-white w-full hover:text-[#4d68ffda] p-1 rounded-lg'>
-                                    <a className='text-xl' href="/" onClick={() => setActive(true)}>Asosiy</a>
+                                    <a className='text-xl' href="/" onClick={() => setActive(true)}>Home</a>
                                 </li>
                                 <li className='hover:bg-white w-full hover:text-[#4d68ffda] p-1 rounded-lg'>
-                                    <a className=' text-xl' href="#haqida" onClick={() => setActive(false)}>Haqida</a>
+                                    <a className=' text-xl' href="#haqida" onClick={() => setActive(false)}>About</a>
                                 </li>
                                 <li className='hover:bg-white w-full hover:text-[#4d68ffda] p-1 rounded-lg'> 
-                                    <a className=' text-xl' href="#aloqa" onClick={() => setActive(false)}>Aloqa</a>
+                                    <a className=' text-xl' href="#aloqa" onClick={() => setActive(false)}>Contact</a>
                                 </li>
                                 <li className='hover:bg-white w-full hover:text-[#4d68ffda] p-1 rounded-lg'>
-                                    <a className=' text-xl' href="#boglanish" onClick={() => setActive(false)}>Bog`lanish</a>
+                                    <a className=' text-xl' href="#boglanish" onClick={() => setActive(false)}>Our social networks</a>
                                 </li>
                             </ul>
                             {/* <div className='flex gap-2 flex-col'>

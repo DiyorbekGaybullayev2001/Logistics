@@ -17,7 +17,7 @@ export function Company() {
                     </div>
                     <div className='order-1 md:order-2'>
                         <img
-                            src="/fura2.png"
+                            src="/imgs13.png"
                             alt="Logistics Truck"
                             className="rounded-lg  object-cover w-full h-full"
                         />

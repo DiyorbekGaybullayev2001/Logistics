@@ -5,11 +5,13 @@ const Home = () => {
     const [open, setOpen] = useState(false);
     return (
         <>
-            <div className='w-full  sm:h-[100vh] mx-auto bg-[url("/mainimg.jpg")]  bg-no-repeat bg-cover ' >
+            <div className='w-full  sm:h-[100vh] mx-auto bg-[url("/imgs10.png")]  bg-no-repeat bg-cover ' >
                 <div className=' w-[100%] m-auto h-full bg-[#00000075]'>
                     <div className='container font-montserrat m-auto text-white p-[10px] md:p-[30px]'>
                         <h1 className='text-[25px] font-montserrat sm:w-[400px] md:w-[600px] leading-none sm:text-[40px] md:text-[60px]  font-semibold mt-[100px] '>Affordable truck service</h1>
-                        <p className='text-[15px]  md:w-[900px] sm:text-[20px] mt-[50px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim exercitationem quisquam odio hic ad distinctio autem reprehenderit modi fugit quam id tempore praesentium unde quod neque, aliquam eveniet. Debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nobis architecto unde qui reprehenderit praesentium tempore in ea error cumque.</p>
+                        <p className='text-[15px]  md:w-[700px] lg:w-[1000px] sm:text-[20px] mt-[50px]'>Affordable truck services are crucial for businesses and individuals who rely on transportation for goods and equipment. Finding a service that is both reliable and affordable can greatly impact operational costs and overall efficiency. The key to an affordable truck service lies in understanding your specific needs. Whether it's for local deliveries or long-haul transport, services that offer a range of pricing options tailored to the type of cargo and distance can be beneficial.
+                        To find affordable truck services, it's important to consider the reputation of the company. Reviews and recommendations from other businesses or individuals who have used similar services can give you insight into the quality and reliability. Additionally, comparing multiple providers will help you gauge the price-to-quality ratio. Some services may offer discounts for bulk bookings, repeat customers, or long-term contracts, making them more budget-friendly for frequent use.
+                        </p>
                         <div className='items-center my-2 mt-[40px] mb-[20px]'>
                             <button className='w-[200px] sm:w-[300px] py-2 sm:py-3 text-[20px] rounded-md hover:border-[#4762FF] hover:border hover:bg-[#3851de] transition-all duration-300 bg-[#4762FF] text-white' onClick={() => setOpen(true)}>Contact</button>
                         </div>

@@ -16,15 +16,15 @@ const Contact = () => {
             <ul className="space-y-4">
               <li className="flex gap-5 items-center">
                 <img src={location} alt="Location Icon" />
-                <span>Tashkent, Mirzo-Ulugbek District, 5th Kurgan Avenue, 32</span>
+                <span> Address 8331 Horton hwy, suite C, College Groove, TN 37046 </span>
               </li>
               <li className="flex gap-5 items-center">
                 <img src={phone} alt="Phone Icon" />
-                <span>+998 33 66 00 999</span>
+                <span>800 750 0033</span>
               </li>
               <li className="flex gap-5 items-center">
                 <img src={email} alt="Email Icon" />
-                <span>azizbek.b@udevs.io</span>
+                <span>towncargo.info@gmail.com</span>
               </li>
             </ul>
           </div>

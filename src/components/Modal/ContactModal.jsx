@@ -19,8 +19,7 @@ const ContactModal = ({ open, close }) => {
                             <div className="bg-white p-8 rounded-lg shadow-lg">
                                 <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">Any questions?</h2>
                                 <p className="text-gray-600 mb-6 text-center md:text-left">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-                                    et, lectus sit lorem id integer.
+                                 If you have any questions, feel free to leave a message. We will get back to you soon!
                                 </p>
                                 <form>
                                     <div className="mb-4">

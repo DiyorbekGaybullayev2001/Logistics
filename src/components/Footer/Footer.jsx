@@ -20,8 +20,8 @@ const Footer = () => {
                         <div className='flex items-center mt-[10px] pl-[10px]'>
                             <LuPhone className='text-[#4762FF] text-[30px]'/>
                             <div className='grid grid-cols-1'>
-                                <span className='ml-3'> 800 750 0033</span>
-                                <span className='ml-3'> 800 750 0033</span>
+                                <span className='ml-3'> <a href="tel:8007500033">800 750 0033</a></span>
+                                <span className='ml-3'> <a href="tel:8007500033">800 750 0033</a></span>
                             </div>
                         </div>
                         <div className='flex items-center mt-[10px] pl-[10px]'>

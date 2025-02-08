@@ -33,8 +33,7 @@ const Contact = () => {
           <div className="bg-white p-8 rounded-lg shadow-lg h-full  m-auto items-center">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">Any questions?</h2>
                     <p className="text-gray-600 mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-                        et, lectus sit lorem id integer.
+                       If you have any questions, feel free to leave a message. We will get back to you soon!
                     </p>
                     <form className="m-auto">
                         <div className="mb-4">
